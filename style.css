@@ -1,6 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Aguafina+Script&family=Allison&family=Allura&family=Dancing+Script:wght@700&family=Lobster&display=swap');
+
+
 *{
     padding: 0;
     margin: 0;
+    
+}
+
+body{
+    /* font-family: 'Lobster', cursive; */
 }
 
 
@@ -39,19 +47,22 @@
 h1{
     padding:15px;
     background-color: #a294a4;
-    font-size: 2.5rem;
+    font-size: 3.5rem;
+    font-family: 'Aguafina Script', cursive;
+    
 }
 
 li{
     list-style-type: square;
     list-style-position: inside;
     padding:10px;
-    font-size: 1.5rem;
+    font-size: 2rem;
     font-weight: bold;
     margin:15px;
     border-radius: 5px;
-    background-color: rgb(162,148,164)
-    ;
+    background-color: rgb(162,148,164);
+    color: white;
+    font-family: 'Allura', cursive;
    
     
 }
@@ -85,7 +96,7 @@ li{
     height: 15px;
     width: 70%;
     margin: auto;
-    
+    font-family: 'Lobster', cursive;
     top: 25px;
     right: 0;
     left: 0;
@@ -93,8 +104,6 @@ li{
     border: none;
     padding: 20px;
     padding-right: 50px;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-      Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
     background-color: rgb(91,36,67);
     color: white;
 }
@@ -103,6 +112,7 @@ li{
     color: white;
     font-size: 0.9rem;
     font-weight: 800;
+    font-family: 'Lobster', cursive;
   }
 
 .addBtn{
@@ -113,8 +123,7 @@ li{
     right: 25px;
     outline: none;
     border: none;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-      Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-family: 'Allison';
     font-size: 40px;
     line-height: 30px;
 }
@@ -156,8 +165,7 @@ li{
     border-radius: 2px;
     padding-right: 80px;
     word-wrap: break-word;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-      Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-family: 'Lobster', cursive;
   }
   .element .tick {
     position: absolute;
